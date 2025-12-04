@@ -475,7 +475,7 @@ export default function App() {
           onClose={() => setSelectedTask(null)}
           onUpdateSubtasks={handleUpdateSubtasks}
           onAddLog={handleAddLog}
-          onUpdateTaskStatus={(id, status) => handleUpdateTask(id, { status })}
+          onUpdateTaskStatus={(id: string, status: Status) => handleUpdateTask(id, { status })}
           onUpdateTaskDetails={handleUpdateTask}
           onDeleteTask={handleDeleteTask}
         />
