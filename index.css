@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animate-delay-100 {
+    animation-delay: 100ms;
+  }
+}
